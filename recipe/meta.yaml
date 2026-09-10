@@ -1,5 +1,5 @@
 {% set name = "molfeat" %}
-{% set version = "0.11.0" %}
+{% set version = "1.0.0" %}
 {% set python_max = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/molfeat-{{ version }}.tar.gz
-  sha256: 2ae82a4b4039be19d7863d4e4f088c184c87d406b2b36b132b7b059714c4d537
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/molfeat-{{ version }}.tar.gz
+  sha256: 888c94b3a09e480119950ae4089c6d7a6196bba4264e00985ca6bc1872265ee9
 
 build:
   noarch: python
